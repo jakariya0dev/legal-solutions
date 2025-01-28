@@ -1,0 +1,335 @@
+<!doctype html>
+<html data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header id="header" class="container p-2 mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Item 1</a></li>
+                            <li>
+                                <a>Parent</a>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Item 3</a></li>
+                        </ul>
+                    </div>
+                    <a> <img src="./images/logo2.png" alt="logo"></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a href="#">Home ></a></li>
+                        <li><a href="#">Cases ></a></li>
+                        <li><a href="#">Blog ></a></li>
+                        <li><a href="#">Contact us ></a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn">Button</a>
+                </div>
+            </div>
+        </nav>
+
+        <section id="hero">
+            <div class="hero min-h-" style="background-image: url('./images/banner.png');">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-neutral-content text-center py-32">
+                    <div class="max-w-lg">
+                        <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solutions</h1>
+                        <p class="mb-5">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form,
+                            by injected humour.
+                        </p>
+                        <div>
+                            <input type="text" placeholder="Type here"
+                                class="input input-bordered input-sm w-full max-w-xs mb-5" />
+                            <button class="btn btn-sm btn-primary">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <main class="container mx-auto p-2">
+
+        <section class="mb-20 text-center py-20">
+            <h2 class="text-4xl mb-2">The legal Practice Area</h2>
+            <p class="mb-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, maiores.</p>
+        
+            <div class="grid grid-cols-1 md:grid-cols-3 text-center">
+                <div class="p-10 space-y-3 border-b border-b-red-150 border-r border-r-red-150">
+                    <img class="mx-auto" src="./images/child.png" alt="">
+                    <h3 class="font-bold text-xl">Business Law</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, maiores.</p>
+                </div>
+        
+                <div class="p-10 space-y-3 border-b border-b-red-150 border-r border-r-red-150">
+                    <img class="mx-auto" src="./images/child.png" alt="">
+                    <h3 class="font-bold text-xl">Business Law</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, maiores.</p>
+                </div>
+        
+                <div class="p-10 space-y-3 border-b border-b-red-150">
+                    <img class="mx-auto" src="./images/child.png" alt="">
+                    <h3 class="font-bold text-xl">Business Law</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, maiores.</p>
+                </div>
+        
+                <div class="p-10 space-y-3 border-b border-b-red-150 border-r border-r-red-150">
+                    <img class="mx-auto" src="./images/child.png" alt="">
+                    <h3 class="font-bold text-xl">Business Law</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, maiores.</p>
+                </div>
+        
+                <div class="p-10 space-y-3 border-b border-b-red-150 border-r border-r-red-150">
+                    <img class="mx-auto" src="./images/child.png" alt="">
+                    <h3 class="font-bold text-xl">Business Law</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, maiores.</p>
+                </div>
+        
+                <div class="p-10 space-y-3 border-b border-b-red-150">
+                    <img class="mx-auto" src="./images/child.png" alt="">
+                    <h3 class="font-bold text-xl">Business Law</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, maiores.</p>
+                </div>
+        
+            </div>
+        </section>
+
+        <section id="slider" class="mb-20">
+
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full" style="background-image: url('./images/slider-1.jpg');">
+                   
+                    <div class="flex flex-col align-center justify-center h-full w-full bg-black bg-opacity-50 py-40">
+                        <div class="avatar mx-auto mb-5">
+                            <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                            </div>
+                        </div>
+
+                        <div class="text-center text-white">
+                            <h2 class="text-2xl font-bold">John Doe</h2>
+                            <p class="text-lg">CEO, Company</p>
+                        </div>
+                    </div>
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+                <div id="slide2" class="carousel-item relative w-full" style="background-image: url(./images/slider-2.jpg);">
+                    
+                    <div class="flex flex-col align-center justify-center h-full w-full bg-black bg-opacity-50 py-40">
+                        <div class="avatar mx-auto mb-5">
+                            <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                            </div>
+                        </div>
+                    
+                        <div class="text-center text-white">
+                            <h2 class="text-2xl font-bold">John Doe</h2>
+                            <p class="text-lg">CEO, Company</p>
+                        </div>
+                    </div>
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+                <div id="slide3" class="carousel-item relative w-full" style="background-image: url(./images/slider-3.jpg);">
+                    
+                    <div class="flex flex-col align-center justify-center h-full w-full bg-black bg-opacity-50 py-40">
+                        <div class="avatar mx-auto mb-5">
+                            <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                            </div>
+                        </div>
+                    
+                        <div class="text-center text-white">
+                            <h2 class="text-2xl font-bold">John Doe</h2>
+                            <p class="text-lg">CEO, Company</p>
+                        </div>
+                    </div>
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="faq" class="mb-20 text-center">
+            <h2 class="text-4xl mb-2 font-bold">Frequently Asked Questions</h2>
+            <p class="mb-16 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, maiores.</p>
+        
+            <div class="md:flex justify-center items-center gap-10">
+                
+                <div class="text-start flex-1">
+                    
+                    <div class="collapse collapse-plus bg-base-200 mb-2 rounded">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                        <div class="collapse-content">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem culpa itaque tempore nihil neque quos commodi, minus placeat eveniet iure saepe id deleniti blanditiis officia explicabo doloribus sequi. Ab, perspiciatis.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200 mb-2 rounded">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                        <div class="collapse-content">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur libero voluptatem aspernatur inventore quos sed atque aperiam molestias! Quod possimus quasi nulla eveniet alias dolorum provident delectus quis libero ea.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200 mb-2 rounded">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                        <div class="collapse-content">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam praesentium vero ullam quas consectetur odio officiis iure harum sapiente ducimus non expedita voluptate laudantium esse, enim fugit tempore nam quod.</p>
+                        </div>
+                    </div>
+
+                    <div class="collapse collapse-plus bg-base-200 mb-2 rounded">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                        <div class="collapse-content">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam praesentium vero ullam quas consectetur odio
+                                officiis iure harum sapiente ducimus non expedita voluptate laudantium esse, enim fugit tempore nam quod.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="flex-1">
+                    <img class="mx-auto" src="./images/faq.png" alt="">
+                </div>
+        
+            </div>
+        </section>
+
+        <section id="contact" class="mb-20 text-center">
+            <h2 class="text-4xl mb-2 font-bold">Contact Us</h2>
+            <p class="mb-16 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, maiores.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                <div class="grid grid-cols-2 text-center">
+                    <div class="p-10 space-y-3 border-b border-b-red-150 border-r border-r-red-150">
+                        <img class="mx-auto" src="./images/child.png" alt="">
+                        <h3 class="font-bold text-xl">Business Law</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, maiores.</p>
+                    </div>
+                
+                    <div class="p-10 space-y-3 border-b border-b-red-150">
+                        <img class="mx-auto" src="./images/child.png" alt="">
+                        <h3 class="font-bold text-xl">Business Law</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, maiores.</p>
+                    </div>
+                
+                    <div class="p-10 space-y-3 border-b border-b-red-150 border-r border-r-red-150">
+                        <img class="mx-auto" src="./images/child.png" alt="">
+                        <h3 class="font-bold text-xl">Business Law</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, maiores.</p>
+                    </div>
+                
+                    <div class="p-10 space-y-3 border-b border-b-red-150">
+                        <img class="mx-auto" src="./images/child.png" alt="">
+                        <h3 class="font-bold text-xl">Business Law</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, maiores.</p>
+                    </div>
+                
+                </div>
+
+                <div class="contact-form">
+                    <form action="" class="grid grid-cols-1 gap-5">
+                        <input type="text" placeholder="Name" class="input input-bordered" />
+                        <input type="email" placeholder="Email" class="input input-bordered" />
+                        <input type="text" placeholder="Subject" class="input input-bordered" />
+                        <textarea name="" id="" cols="30" rows="50" placeholder="Message" class="input input-bordered"></textarea>
+                        <button class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    
+    <footer class=" bg-base-200 text-base-content py-10 px-2">
+        <div class="container mx-auto footer">
+            <nav>
+                <h6 class="footer-title">Services</h6>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Company</h6>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Legal</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </nav>
+            <form>
+                <h6 class="footer-title">Newsletter</h6>
+                <fieldset class="form-control w-80">
+                    <label class="label">
+                        <span class="label-text">Enter your email address</span>
+                    </label>
+                    <div class="join">
+                        <input type="text" placeholder="username@site.com" class="input input-bordered join-item" />
+                        <button class="btn btn-primary join-item">Subscribe</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </footer>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
